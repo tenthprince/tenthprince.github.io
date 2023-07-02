@@ -17,11 +17,11 @@
     .container {
       background: #000;
       border: 1px solid #444;
-      border-radius: 10px;
+      border-radius: 13px;
       padding: 20px;
       color: #fff;
       text-align: center;
-      width: 100%;
+      width: 800px;
     }
     
     .container h1 {
@@ -44,18 +44,34 @@
       .container {
         max-width: 80%;
       }
+      .container h1 {
+        font-size: 4rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        width: 95%;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .container h1 {
+        font-size: 2rem;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>𝕿𝖊𝖓𝖙𝖍𝖕𝖗𝖎𝖓𝖈𝖊 👽</h1>
-    <img src="test.jpg" width="200px" alt="Image">
+    <img src="test.jpg" width="500px" alt="Image">
     <br />
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <a href="#">ESO Thief Build</a>
+    <a href="#">Github Projects</a>
+    <br /> <br />
   </div>
 </body>
 </html>
-
