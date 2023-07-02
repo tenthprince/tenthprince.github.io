@@ -1,0 +1,121 @@
+/* -------SETUP-------- */
+html,body 
+  {
+    background: black;
+    color: snow;
+  }
+
+/* -------Font Stuff-------- */
+h4#tittle
+  {
+    text-align: right;
+    font-size: 5.5rem;
+    color: snow;
+  }
+  h1#geartitle, h1#champions, h1#playstyle, h1#addons
+
+  {
+    font-size: 3rem;
+  }
+
+div,p
+  {
+    color: snow;
+    font-family: 'VT323', cursive;
+    font-weight: lighter;
+  }
+
+
+@media screen and (min-width: 600px) {
+#cooltitle {
+  font-size: 1.5rem;
+}
+div,p {
+  font-size: 2.9rem;
+} }
+
+@media screen and (max-width: 600px) {
+#cooltitle {
+  font-size: .5rem;
+}
+div,p {
+  font-size: 2.2rem;
+} }
+
+
+  /* -------Cute Fox Thing-------- */
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%; /* Adjust the width as per your logo size */
+  height: 32%; /* Adjust the height as per your logo size */
+  background-image: url('../images/tech.png');
+  background-repeat: no-repeat;
+  background-size: contain; /* Adjust the background size as needed */
+  background-position: left;
+  z-index: 0; /* Ensure the logo appears above other elements */
+
+}
+/* -------Fix Images For Mobile-------- */
+img
+  {
+    max-width: 100%
+  }
+
+
+/* -------Color Palate and Formatting-------- */
+.lightgreen {
+  color:springgreen;
+}
+
+.organge {
+  color:orangered;
+}
+
+.orange2 {
+  color: darkorange;
+}
+
+.red {
+  color: indianred;
+}
+.red2 {
+  color: darkred;
+}
+
+.blue {
+  color:skyblue;
+}
+
+.green {
+  color:lawngreen;
+}
+
+.gold {
+  color:lightgoldenrodyellow;
+}
+
+.gold2 {
+  color:gold;
+}
+
+.coral {
+  color:coral;
+}
+
+.purple {
+  color:palevioletred;
+}
+
+.violet {
+  color: mediumorchid;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.centre {
+  text-align: center;
+}
